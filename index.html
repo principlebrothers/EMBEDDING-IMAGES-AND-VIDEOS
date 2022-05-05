@@ -6,24 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VidiTube</title>
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <section>
-        <header>
-            <img src="./images/logo.PNG" alt="logo"/>
-            <h2>VidiTube</h2>
+        <header class="header">
+            <div id="logo">
+                <img src="./images/logo.PNG" alt="VidiTube Logo" width="60" height="60"/>
+                <h1>VidiTube</h1>
+            </div>
+
+            <form class="searchbox">
+               <input type="search" placeholder="Search" aria-label="Search"/>
+               <button type="submit" class="search-btn">
+                    <img src="./images/search_icon.svg" alt="search"/>
+               </button>
+            </form>
+
+            <div class="menu-icons">
+                <a href="#">
+                    <img src="./images/apps.png" alt="Apps"/>
+                </a>
+                <a href="#">
+                    <img src="./images/notifications.png" alt="Notification"/>
+                </a>
+                <a href="#">
+                    <img src="http:///unsplash.it/36/36?gravity=center" alt="Your Channel"/>
+                </a>
+            </div>
         </header>
     </section>
 
     <main>
-        <video>
-            
-        </video>
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail">
+                 <img class="thumbnail.image" src="https://unsplash.it/250/150?gravity=center"/>   
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://unsplash.it/36/36?gravity=center"/>
+                    </a>
+                    <div class="video-details">
+                        <a href="#" class="video-title">Video Title</a>
+                        <a href="#" class="video-channel-name">Channel Name</a>
+                        <div class="video-metadata">
+                            <span>12K views</span>
+                            •
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
     </main>
 
     <section>
         <footer>
-            <h5>All Right Reserved Copyright &copy; 2022 VidiTube</h5>
+            <h3>All Right Reserved Copyright &copy; 2022 VidiTube</h3>
         </footer>
     </section>
 </body>
