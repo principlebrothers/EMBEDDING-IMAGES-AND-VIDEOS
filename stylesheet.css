@@ -18,10 +18,13 @@ body{
 .name{
     font-weight: bolder;
     font-size: 45px;
+    font-family: inherit;
+    text-shadow: 2px 1px #777;
 }
 
 .image-logo{
     height: 45px;
+    box-shadow: 2px 2px #777;
 }
 
 .search-bar{
@@ -67,4 +70,35 @@ body{
     width: 36px;
     height: 36px;
     background-color: #AAA;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-video-section{
+    margin-right: 15px;
+    padding: 0 15px 15px 20px;
+}
+
+.side-bar{
+    width: 550px;
+    height: 100%;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: auto;
+}
+
+.video-container{
+    display: flex;
+    gap: 0.5rem;
+    margin: 8px;
+}
+
+.video-details{
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    gap: 1.5rem;
 }
