@@ -8,11 +8,28 @@ body{
     margin: 0;
 }
 
+.reaction-icons{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    text-align: center;
+
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+}
+
+.reaction-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a{
+    text-decoration: none;
 }
 
 .name{
