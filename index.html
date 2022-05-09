@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="sticky">
-        <header class="header">
+    <section class="header-section">
+        <header>
             <div id="logo">
                 <img src="./images/logo.PNG" alt="VidiTube Logo" width="60" height="60" class="image-logo"/>
                 <span class="name">VidiTube</span>
@@ -37,6 +37,7 @@
         </header>
     </section>
 
+   <section class="main-section">
     <main>
         <section class="main-video-section">
             <iframe width="880" height="439" src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen controlslist="nodownload"></iframe>
@@ -44,7 +45,25 @@
             <h3>Embed vidoes and playlists</h3>
             <!--Reaction bar-->
             <div class="reaction-bar">
-                <span>366,649 views • May 13, 2016</span>
+                <span class="views-date">366,649 views • May 13, 2016</span>
+                <div class="reaction-icons">
+                    <span class="like">
+                        <img src="./images/thumb_up.png" alt="like"/>
+                        3.9k
+                    </span>
+                    <span class="dislike">
+                        <img src="./images/thumb_down.png" alt="dislike"/>
+                        Dislike
+                    </span>
+                    <span class="share">
+                        <img src="./images/share.svg" alt="share"/>
+                        Share
+                    </span>
+                    <span class="save">
+                        <img src="./images/save.svg" alt="save"/>
+                        Save
+                    </span>
+                </div>
             </div>
         </section>
 
@@ -147,5 +166,6 @@
         </section>
         
     </main>
+   </section>
 </body>
 </html>
